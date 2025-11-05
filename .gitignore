@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+.env/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+
+# Logs
+*.log
+
+# Streamlit / Cache
+.streamlit/
+
+# Environment variables
+.env
