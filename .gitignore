@@ -9,6 +9,7 @@ __pycache__/
 # Virtual environments
 agents_tut/
 venv/
+.venv/
 .env/
 
 # IDE / Editor settings
@@ -26,3 +27,26 @@ venv/
 
 # Environment variables
 .env
+.env.*
+!env.template
+!.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+build/
+dist/
+frontend/build/
+frontend/dist/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.cache/
+
+# Data & vector stores
+vectorstore/
