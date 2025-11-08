@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "pythonVersion": "3.11"
-  },
   "build": {
     "env": {
       "CI": "false"
