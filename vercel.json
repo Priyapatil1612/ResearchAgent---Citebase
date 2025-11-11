@@ -21,7 +21,7 @@
   "routes": [
     { "src": "/api/(.*)", "dest": "/backend/main.py" },
     { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/" }
   ],
   "env": {
     "REACT_APP_API_URL": "/api"
