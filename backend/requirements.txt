@@ -10,6 +10,10 @@ alembic>=1.13.0
 psycopg2-binary>=2.9.0
 gunicorn>=20.1.0
 
-# Add these with specific versions and platform tags
-tiktoken>=0.4.0 --only-binary=:all:
-pyarrow>=12.0.0 --only-binary=:all:
+# Platform-specific pre-built wheels
+--only-binary=:all: \
+    --platform manylinux2014_x86_64 \
+    --implementation cp \
+    --abi cp39 \
+    tiktoken>=0.4.0 \
+    pyarrow>=12.0.0
